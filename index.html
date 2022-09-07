@@ -4,80 +4,202 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dessert Recipe</title>
+    <title>Trileçe Tatlısı</title>
     <style>
         *{
             margin: 0;
             padding: 0;
             font-family: "Roboto", sans-serif;
+        }        
+        html, body{
+            width: 100%;
+            height: 100%;
         }
-        
         .container{
             width: 100%;
-            height: 100vh;
-            background-image: url(images/background.jpg);
+            height: 100%;
+            background-image: url(images/bg.jpg);            
             background-position: center;
             background-size: cover;
-            padding-left: 8%;
-            padding-right: 8%;
+            padding-left: 2%;
+            padding-right: 2%;
             box-sizing: border-box;           
         }
-
         .navbar{
             height: 12%;
             display: flex;
             align-items: center;
+            
         }
-
         .logo{
-            width: 50px;
-            cursor: pointer;
-        }
-
-        .menu-icon{
-            width: 50px;
-            cursor: pointer;
-            margin-left: 50px;
-        }
-
+            width: 80px;            
+            margin: 8px;
+        }      
         nav{
             flex: 1;
             text-align: right;
+        }       
+        .section1{            
+            width: 100%;            
+            align-items: center;
+            
+            position: relative;
+        }      
+        h2{
+            display: flex;
+            color: yellow;
+            font-size: 50px;
+            margin: auto;
+            text-align: center;            
         }
-
-        nav ul li{
-            list-style: none;
+        .tar_h1{           
+            color: blue;
+            font-size: 20px;
+            margin: auto;
+            text-align: center;                
+        }
+        .tarihce{
+            color: black;
+            font-size: 20px;
+            line-height: 18px;
+            margin: auto;           
+        }
+        .box1{
             display: inline-block;
-            margin-left: 60px;
+            
         }
-
-        nav ul li a{
-            text-decoration: none;
-            color: white;
-            font-size: 13px;
+        .box2{
+            display: inline-block;
+            position: absolute;
+            padding-left: 10px;            
         }
+        .section2{            
+            width: 650px;            
+            align-items: center;
+            
+            position: relative;
+            display: inline-block;
+        } 
+        .box3{
+            display: inline-block;            
+        }
+        .box4{
+            display: inline-block;
+            position: absolute;
+            padding-left: 10px;   
+            padding-top: 30px;         
+        }
+        .pic1{
+            margin: auto;
+        }
+        .mal_h1{
+            color: blue;
+            font-size: 20px;
+            margin: auto;
+            text-align: center;  
+        }
+        .section3{
+            width: 650px;
+            height: 300px;            
+            align-items: center;
+                        
+            display: inline-block;
+            position: absolute;
+           
+        }
+        .yap_h1{
+            color: blue;
+            font-size: 20px;
+            margin: auto;
+            text-align: center; 
+        }
+        .box5{
+            display: inline-block;            
+        }
+        .box6{
+            display: inline-block;
+            position: absolute;                   
+        }
+        .yapilis{
+            color: black;
+            font-size: 12px;
+            line-height: 15px;
+            margin: auto;  
+             
 
-
-
-
-
+        }
+        .pic3{
+            padding: 5px;
+            float: left;
+            margin-right: 15px;
+            -webkit-shape-outside: circle();
+            shape-outside: circle();
+            background: none;
+            border: none;
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
         <div class="navbar">
-            <img src="images/logo.jpg" class="logo">
-            <nav>
-                <ul class="link">
-                    <li><a href="">ANASAYFA</a></li>
-                    <li><a href="">HAKKIMDA</a></li>
-                </ul>
-            </nav>
-            <img src="images/menu.png" class="menu-icon">
-
-
+            <img src="images/logo.png" class="logo">            
+                <h2>Triliçe Tatlısı</h2>           
         </div>
-    </div>
+        <div class="section1">
+            <div class="tar_h1">
+                <h1>Tarihçesi</h1>
+            </div>
+            <div class="box1">
+                <img src="images/image_1.jpg" class="pic1" height="200px" alt="triliçe">
+            </div>
+            <div class="box2">
+                <p class="tarihce">
+                    Triliçe, muhtemelen Avrupa ve Amerika arasında gerçekleşen büyük kültürler arası aktarımın 
+                    bir sonucu olarak, 19. yüzyılın başlarında Meksika'da görüldü. Nikaragua, triliçe pastasının 
+                    popüler hale geldiği ülkelerden biridir. Tarifler 1940'larda Nestlé yoğunlaştırılmış süt 
+                    konservesi etiketlerinde yer aldı; bu, pastanın 1930'larda Şili, Küba, Kolombiya, Meksika ve 
+                    Venezuela'da yayılmasına neden oldu. Trileçe/Triliçe olarak bilinen çeşitli tres leçler 2015 
+                    civarında Balkanlar'da ve Türkiye'de popüler hale geldi. Bir teoriye göre, Arnavutluk'taki 
+                    Brezilya pembe dizilerinin popülaritesi yerel şefleri tatlıyı tersine mühendislik yapmaya 
+                    yöneltti ve bu tatlı daha sonra Türkiye'ye yayıldı.
+                </p>
+            </div>
+            </div>
+            <div class="section2">
+                <div class="mal_h1">
+                    <h1>Malzemeler</h1>
+                </div>
+                <div class="box3">
+                    <img src="images/mal.jpg" height="250px" alt="malzemeler">
+                </div>
+                <div class="box4">
+                    <p>5 adet yumurta, 1 su bardağından 1 parmak eksik şeker, 1. 5 su bardağı un, 1 paket kabartma tozu,
+                    1 paket vanilya. Sütlü Sosu İçin; 3.5 su bardağı süt, 3 yemek kaşığı toz şeker, 200 gr. krema
+                    Karamel Sosu İçin; 1 çay bardağı şeker, 1 yemek kaşığı tereyağı, 200 gr sıvı krema
+                    Üzerine; 1 paket krem şanti
+                    </p>
+                </div>
+            </div>
+            <div class="section3">
+                <div class="yap_h1">
+                    <h1>Yapılışı</h1>
+                </div>
+                <div class="box5">
+                    <img src="images/image_2.jpg" class="pic3" height="125px" alt="yapilisi">
+                </div>
+                <div class="box6">
+                    <p class="yapilis">Yumurta ve şekeri alıp boza kıvamına gelene kadar çırpıyoruz.
+                        Un, kabartma tozu ve vanilyayı ekleyip spatulayla alttan üste doğru karıştırıp yağlı kağıt serili fırın kabına dökün.
+                        170° lik fırında 10 dakika, sonra ısıyı 150° düşürüp yaklaşık 30 dakika pişirelim.
+                        Sütlü sosu için uygun bir kapta süt , toz şeker ve sıvı kremayı çırp buzdolabına bekletelim.
+                        Karamel sosumuz için tavamıza şekeri alıp orta ateşte sürekli karıştırarak erimesini sağlayalım.
+                        Açık bir renk aklınca 1 yemek kaşığı tereyağı ekleyelim ve yağın erimesini sağlayalım.
+                        Son olarak sıvı kremayı ekleyip sosumuz kıvam alana kadar kısık ateşte kısa süre karıştırarak pişirelim. (Dilerseniz hazır karamel sos kullanılabilir) Ilımış olan kekimizi ters çevirelim yaşlı kağıdı çıkartıp çatalla delikler açalım soğuk sütlü sosu kekin üzerine dökelim. 1 paket çırpılmış krem şantiden süslemek için biraz ayırıp kalanını kekin üzerine yayalım. Ilınmış olan karamelli sosumuzu krem şantinin üzerine dökelim sonra krem şanti ile süsleyelim 5-6 saat dinlendirelim.
     
+                    </p>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
