@@ -2,7 +2,7 @@
 
 Bu repo [Patika](https://www.patika.dev) Front-End Eğitimi kapsamında oluşturulan ve içeriğinde Triliçe Tatlısı tarifi olan bir web site. İçerisinde bir adet README dosyası, 1 adet images dosyası ve 1 adet index.html barındırıyor.
 
-[github image](https://www.hizliresim.com/aagxh24)
+[github image](https://www.hizliresim.com/605tdt8)
 
 ## Installation
 
